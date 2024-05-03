@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App developer</title>
+    <link href='https://fonts.googleapis.com/css?family=Aoboshi One' rel='stylesheet'>
+    <style>
+        body{
+            background-color: #818ab6bd;
+            font-family: 'Aoboshi One';
+        }
+        #contenar {
+            background-color: #691ab16b;
+            border: 5px  black;
+            border-radius: 15px;
+            width: 630px;
+            height: 500px;
+            position: absolute;
+            top: 20%;
+            left: 31%;
+            font-size: 18px;
+            box-shadow: -10px -5px 20px 4px #454343;
+        }
+        .DApp{
+            box-shadow: inset -4px -4px 20px 6px #454444;
+        }
+
+        #AppD {
+            border: 2px red;
+            border-radius: 25px;
+            width: 250px;
+            height: 388px;
+            font-size: 26px;
+            position: relative;
+            top: 65px;
+            left: 25px;
+            background-color: #7fffd4c4;
+            margin: 5px;
+            padding: 8px;
+
+        }
+
+        #App {
+            margin: 5px;
+            padding: 8px;
+            border: 2px blue;
+            border-radius: 25px;
+            width: 250px;
+
+            top: 65px;
+
+            background-color: #f5f5dcc9;
+            position: absolute;
+
+            left: 330px;
+
+        }
+
+
+        #Appdeveloper {
+            border: 2px;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+            top: 3px;
+            left: 250px;
+            background-color: #cacaca;
+            font-size: 20px;
+            text-align: center;
+
+        }
+
+        #img {
+            border: 2px;
+            border-radius: 25px;
+            width: 43%;
+            height: 42%;
+            position: absolute;
+            top: 244px;
+            left: 339px;
+            filter: brightness(85%);
+          
+        }
+        #img:hover{
+            transform: scale(1.05);
+        }
+
+        #Native {
+            border: 2px;
+            margin: 5px;
+            text-shadow: 5px 5px 5px #ababab;
+           
+            position: absolute;
+            top: 2px;
+            left: 85px;
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div id="contenar">
+        <h2 id="Appdeveloper">App developer</h2>
+        <img src="App Developer.jpg" alt="56" id="img"  >
+
+        <div id="AppD" class="DApp">
+
+            <h4 id="Native">Native</h4>
+
+            <ul type="disc">
+                <li>
+                    <h5>Android</h5>
+                </li>
+                <ul type="circle">
+                    <li>java</li>
+                    <li>kotlin</li>
+                </ul>
+
+            </ul>
+
+            <ul type="disc">
+                <li>
+                    <h5>IOS</h5>
+                </li>
+            </ul>
+            <ul type="circle">
+                <li>swift</li>
+            </ul>
+
+        </div>
+
+        <div id="App" class="DApp">
+            <h3>Cross-platform</h3>
+            <h4>
+                <ul type="disc">
+                    <li>Flutter</li>
+                    <li>React Native</li>
+                </ul>
+            </h4>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

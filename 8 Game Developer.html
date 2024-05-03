@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Developer</title>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
+    <style>
+        body{
+            font-family: 'Courgette';
+            font-size: 20px;
+            background-color: #004D40;
+            color: rgba(250, 225, 199, 0.742);
+        }
+        #gd{
+            border: 5px solid white;
+            border-radius: 90px;
+            /* position: relative; */
+            position: absolute;
+            top: 5%;
+            left: 23%;
+            text-align: center;
+            width: 820px;
+            padding: 10px;
+            font-family: 'Black Ops One';
+            font-size: 80px;
+            color: black;
+            
+        }
+        .contenar{
+            border: 5px  black;
+            border-radius: 25px;
+            padding: 10px;
+            margin: auto;
+            width: 950px;
+            height: 220px;
+            background-color: #006064c9;
+            position: relative;
+            /* left: 200px; */
+            top: 257px;
+            display: flex;
+            box-shadow: inset 0px 0px 8px 3px #0000008c;
+            flex-flow: row ;
+            
+
+
+        }
+        .contenar:hover{
+            
+            box-shadow: inset 1px -1px 8px 3px #D1C4E9;
+        }
+        .eng{
+            border: 5px  red;
+            border-radius: 15px;
+            padding: 5px;
+            margin: 10px;
+            width: 300px;
+            
+           
+        }
+        #engine1:hover{
+        background-color: #2632381a;
+        box-shadow: inset 1px -1px 8px 3px #D1C4E9;
+        }
+
+        #engine2:hover{
+               box-shadow: inset 1px -1px 8px 3px #D1C4E9;
+            background-color: #2632381a;
+
+        }
+      
+           
+        #engine3:hover{
+            background-color: #2632381a;
+            box-shadow: inset 1px -1px 8px 3px #D1C4E9;
+        }
+        h3{
+            text-align: center;
+            border: 2px;
+            border-radius: 5px;
+            /* background-color: aqua;
+            color: white; */
+            width: 175px;
+            margin: auto;
+            /* justify-content: center; */
+            
+        }
+        h3:hover{
+            background-color: rgba(165, 42, 42, 0.466);
+        }
+        #gm{
+            color: white;
+            border: 2px ;
+            border-radius: 15px;
+            
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            /* filter: brightness(57%); */
+            background-image: url(game.jpg)
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="gd">Game Developer</h1>
+    <div class="contenar">
+        <h1 id="gm">Game Developer</h1>
+        <div id="engine1" class="eng">
+            <h3>Game Engine</h3>
+            <ol>
+                <li>Unity
+                </li>
+            </ol>
+        </div>
+        <div id="engine2" class="eng">
+            <h3>Audio Engineers</h3>
+            <ol>
+                <li>Recording Engineer</li>
+                <li>Mixing Engineer</li>
+                <li>Mastering Engineer</li>
+                <li>Editing</li>
+            </ol>
+        </div>
+        <div id="engine3" class="eng"></div>
+    </div>
+
+</body>
+</html>
